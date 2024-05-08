@@ -32,3 +32,31 @@ function addTwoNumbers(num1, num2) {
 }
 
 addTwoNumbers(10, 20);
+addTwoNumbers(100, 200);
+addTwoNumbers("hello", 453098345);
+
+console.clear();
+
+function logArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    // console.log(i);
+    console.log(array[i]);
+  }
+}
+let cats = ["Frank", "Lucy", "Meow", "Luna", "Mark"];
+
+logArray(cats);
+logArray([1, 2, 3, 4, 5]);
+console.clear();
+function subtractTwoNumbers(num1, num2) {
+  let result = num1 - num2;
+  return result;
+}
+
+let difference = subtractTwoNumbers(100, 50);
+console.log("difference: ", difference);
+
+console.log("difference2: ", subtractTwoNumbers(5, 3));
+
+// let arrayResult = logArray(cats);
+// console.log(arrayResult);
